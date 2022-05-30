@@ -841,6 +841,7 @@ header label:hover {
         margin-top: -0.5em;
         font-size: 1.4em;
         border-bottom: none;
+        text-shadow: 0 0 0.2em rgb(252 252 252), 0 0 0.2em rgb(252 252 252), 0 0 0.2em rgb(252 252 252);
     }
 
     .menu a:hover {
@@ -901,6 +902,15 @@ header label:hover {
 
 /*ESTILOS NOSOTROS*/
 @media screen and (min-width:0px) and (max-width:575px) {
+    .fondo-nosotros {
+        height: 36em;
+    }
+    .nosotros-menu{
+        top: 29.2em;
+    }
+    .icon-nosotros{
+        top: 12em;
+    }
     .contenido-nosotros {
         flex-direction: column;
     }
@@ -977,6 +987,15 @@ header label:hover {
 
 /*ESTILOS PROYECTOS*/
 @media screen and (min-width:0px) and (max-width:575px) {
+    .fondo-proyectos{
+        height: 36em;
+    }
+    .proyectos-menu{
+        top: 29.2em;
+    }
+    .icon-proyectos{
+        top: 12em;
+    }
     .contenedor-proyectos {
         width: 90%;
     }
@@ -988,6 +1007,16 @@ header label:hover {
 
 /*ESTILOS NOTICIAS*/
 @media screen and (min-width:0px) and (max-width:575px) {
+    .fondo-noticias{
+        height: 36em;
+    }
+    .noticias-menu{
+        top: 29.2em;
+    }
+    .icon-noticias{
+        top: 12em;
+    }
+    
     .contenedor-noticias {
         width: 90%;
         flex-direction: column;
@@ -1000,6 +1029,16 @@ header label:hover {
 
 /*ESTILOS FORMULARIO*/
 @media screen and (min-width:0px) and (max-width:575px) {
+    .fondo-contacto{
+        height: 36em;
+    }
+    .contacto-menu{
+        top: 29.2em;
+    }
+    .icon-contacto{
+        top: 12em;
+    }
+    
     .formulario {
         width: 90%;
     }
