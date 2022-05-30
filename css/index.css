@@ -835,6 +835,21 @@ header label:hover {
         right: -12.5em;
         top: 3.5em;
     }
+    /*.menu {
+    position: relative; 
+    background: none;
+    transition: none; 
+    transform: none; 
+    right: 9.5em;
+    top: 5.5em;
+    transition: all 0.5s;
+    transform: translateY(-60%);
+    position: absolute;
+    }*/
+
+    /*#menu-bar:checked ~ .menu{
+        transform: translateY(0%);
+    }*/
 
     .menu a {
         height: 1em;
