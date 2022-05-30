@@ -1009,6 +1009,7 @@ header label:hover {
 @media screen and (min-width:0px) and (max-width:575px) {
     .fondo-noticias{
         height: 36em;
+        opacity: 70%;
     }
     .noticias-menu{
         top: 29.2em;
